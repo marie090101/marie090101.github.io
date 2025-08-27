@@ -1,0 +1,26 @@
+html {
+    font-size: medium;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, lavenderblush, hotpink);
+    text-align: center;
+}
+
+section {
+    border-style: none none solid none;
+    border-color: hotpink;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+footer {
+    color: white;
+    margin-top: 100px;
+}
