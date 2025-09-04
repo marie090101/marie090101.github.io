@@ -6,6 +6,10 @@ header {
     margin-bottom: 100px;
 }
 
+.icon {
+    width: 50vw;
+    max-width: 300px;
+}
 body {
     background-image: linear-gradient(to bottom, lavenderblush, hotpink);
     text-align: center;
