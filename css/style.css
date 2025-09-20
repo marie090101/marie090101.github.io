@@ -1,27 +1,36 @@
+@charset "UTF-8";
 html {
+    width: 100vw;
     font-size: medium;
 }
 
-header {
-    margin-bottom: 100px;
-}
-
-.icon {
-    width: 50vw;
-    max-width: 300px;
-}
 body {
     background-image: linear-gradient(to bottom, lavenderblush, hotpink);
-    text-align: center;
+    padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    img {
+        width: 50%;
+        max-width: 240px;
+        display: block;
 }
 
 section {
     border-style: none none solid none;
     border-color: hotpink;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding-left: 16px;
-    padding-right: 16px;
+}
+
+table {
+    border-color: hotpink;
+    border-style: solid;
+    margin-bottom: 16px;
+}
+
+th,
+td {
+    border-color: hotpink;
+    border-style: solid;
 }
 
 footer {
