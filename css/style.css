@@ -6,14 +6,17 @@ html {
 
 body {
     background-image: linear-gradient(to bottom, lavenderblush, hotpink);
-    padding-left: 5%;
-        padding-right: 5%;
-    }
+}
+
+#main {
+    padding-left: 5px;
+    padding-right: 5px;
+}
     
-    img {
-        width: 50%;
-        max-width: 240px;
-        display: block;
+img {
+    width: 50%;
+    max-width: 240px;
+    display: block;
 }
 
 section {
@@ -33,6 +36,17 @@ td {
     border-style: solid;
 }
 
+#qrcodes {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.qr {
+    width: 120px;
+    height: auto;
+}
 footer {
     color: white;
     margin-top: 100px;
