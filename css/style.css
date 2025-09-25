@@ -5,7 +5,8 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to bottom, lavenderblush, hotpink);
+    background-image: url("../images/pastel_00027.jpg");
+        background-size: cover;
 }
 
 #main {
