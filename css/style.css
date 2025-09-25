@@ -22,18 +22,18 @@ img {
 
 section {
     border-style: none none solid none;
-    border-color: hotpink;
+    border-color: palevioletred;
 }
 
 table {
-    border-color: hotpink;
+    border-color: palevioletred;
     border-style: solid;
     margin-bottom: 16px;
 }
 
 th,
 td {
-    border-color: hotpink;
+    border-color: palevioletred;
     border-style: solid;
 }
 
@@ -49,6 +49,6 @@ td {
     height: auto;
 }
 footer {
-    color: white;
+    color: palevioletred;
     margin-top: 100px;
 }
