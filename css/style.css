@@ -14,10 +14,11 @@ body {
     padding-right: 5px;
 }
     
-img {
+.icon {
     width: 50%;
     max-width: 240px;
     display: block;
+    border-radius: 50%;
 }
 
 section {
@@ -48,6 +49,7 @@ td {
 .qr {
     width: 120px;
     height: auto;
+    display: block;
 }
 footer {
     color: palevioletred;
